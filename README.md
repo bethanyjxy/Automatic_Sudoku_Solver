@@ -56,11 +56,6 @@ When the program is run, it first preprocesses the input Sudoku image using the 
 5. **Warping the Grid:** The Sudoku grid is warped into a perfect square.
 6. **Split into 81 Small Images:** The grid is divided into 81 individual images, each representing a cell in the puzzle.
 7. **Image Recognition:** Each small image is resized to 32x32 and normalized for input to the CNN model, which predicts the digits. If the highest probability class has confidence greater than 0.8, it is added to the Sudoku puzzle. Otherwise, it's marked as empty.
-
-## Future Improvements
-
-- Further optimize the CNN model for more efficient image recognition.
-- Enhance the solver's ability to handle images with different types of noise and distortions.
   
 ## Running the Project
 
