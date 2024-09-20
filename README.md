@@ -62,17 +62,18 @@ When the program is run, it first preprocesses the input Sudoku image using the 
 To run the Sudoku solver:
 
 1. Clone this repository.
-2. Download the **[Chars74K dataset](https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k/)** and ensure it's correctly set up for model training.
-3. Train the CNN model using the dataset.
-4. Run the solver with the following command:
+2. Run the solver with the following command:
 
    ```bash
    python SudokuMain.py
 
-5. You will be prompted to enter the file path of the Sudoku puzzle image. For example:
+3. You will be prompted to enter the file path of the Sudoku puzzle image. For example:
    
    ```bash
    PuzzleImages/easy-sudoku.png
+
+## Training the model 
+Download **[Chars74K dataset](https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k/)** 
 
 ## Future Improvements
 
